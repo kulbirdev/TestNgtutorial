@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="12" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="username" duration-ms="168" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="70" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+      <class name="test.framework1">
+        <test-method status="PASS" signature="username()[pri:0, instance:test.framework1@36d4b5c]" name="username" duration-ms="2" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+      </class> <!-- test.framework1 -->
+      <class name="test.framework">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.framework@100fc185]" name="Demo" duration-ms="15" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="secondtest()[pri:0, instance:test.framework@100fc185]" name="secondtest" duration-ms="2" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtest -->
+      </class> <!-- test.framework -->
+      <class name="test.framework3">
+        <test-method status="PASS" signature="apiloginhome()[pri:0, instance:test.framework3@6d00a15d]" name="apiloginhome" duration-ms="3" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiloginhome -->
+        <test-method status="PASS" signature="mobileloginhome()[pri:0, instance:test.framework3@6d00a15d]" name="mobileloginhome" duration-ms="1" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileloginhome -->
+        <test-method status="PASS" signature="webloginhome()[pri:0, instance:test.framework3@6d00a15d]" name="webloginhome" duration-ms="1" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhome -->
+      </class> <!-- test.framework3 -->
+    </test> <!-- login -->
+    <test name="username" duration-ms="0" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+    </test> <!-- username -->
+    <test name="login1" duration-ms="9" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+      <class name="test.framework3">
+        <test-method status="PASS" signature="apiloginhome()[pri:0, instance:test.framework3@14acaea5]" name="apiloginhome" duration-ms="2" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiloginhome -->
+        <test-method status="PASS" signature="mobileloginhome()[pri:0, instance:test.framework3@14acaea5]" name="mobileloginhome" duration-ms="2" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileloginhome -->
+        <test-method status="PASS" signature="webloginhome()[pri:0, instance:test.framework3@14acaea5]" name="webloginhome" duration-ms="1" started-at="2018-03-01T16:01:41Z" finished-at="2018-03-01T16:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhome -->
+      </class> <!-- test.framework3 -->
+    </test> <!-- login1 -->
+  </suite> <!-- username -->
+</testng-results>

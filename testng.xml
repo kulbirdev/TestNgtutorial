@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="username">
+<test name ="login" >
+ 
+    <classes>
+      <class name="test.framework"/>
+      <class name="test.framework1"/>
+      <class name="test.framework3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="username">
+  <classes>
+  <class name="test.framework2">
+  <methods>
+  <include name="Demo"/>
+  </methods>
+  </class>
+  </classes>
+  </test>
+  
+  <test name ="login1">
+  <classes>
+  <class name="test.framework3">
+  <methods>
+  <exclude name="this is my mobile home"/>
+  </methods>
+  </class>
+  </classes>
+  </test>
+  
+  
+  
+</suite> 
